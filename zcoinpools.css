@@ -80,7 +80,6 @@ h1 {
 	font-size: 40px;
 	color: white;
 	padding:20px;
-	padding-top: 30px;
 	text-align: center;
 	letter-spacing: 4px;
 	-webkit-margin-after: 0;
@@ -90,8 +89,7 @@ p {
 	font-family: Lato;
 	font-size: 20px;
 	color: white;
-	padding:10px;
-	padding-top: 30px;
+	padding: 20px;
 	text-align: center;
 	letter-spacing: 1px;
 	-webkit-margin-after: 0;
@@ -110,9 +108,54 @@ th, td {
 }
 #about {
 	background-color: #41ad55;
-	height: 400px;
+	padding: 70px 0;
+}
+#aboutContainer {
+	height: auto;
 }
 #contact {
 	background-color: #1f1f2e;
-	height: 400px;
+	padding: 70px 0;
+}
+#contactContainer {
+	height: auto;
+}
+input {
+	width: 800px;
+	padding:15px;
+	font-size: 20px;
+	background-color: #1f1f2e;
+	margin: 30px auto;
+	display: block;
+	border-radius: 4px;
+	border: none;
+	border-bottom: 2px solid #2c2c44;
+	-webkit-transition: background-color 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out;
+}
+input[type=submit] {
+	width: 400px;
+	padding:15px;
+	font-size: 20px;
+	color: white;
+	background-color: #41ad55;
+	margin: 30px auto;
+	display: block;
+	border-radius: 4px;
+	border: 2px solid #41ad55;
+	-webkit-transition: background-color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+	transition: background-color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+input[type=text]:focus {
+	background-color: #2c2c44;
+	outline: 0;
+}
+input[type=text]:hover {
+	background-color: #2c2c44;
+	outline: 0;
+}
+input[type=submit]:hover {
+	background-color: #30823f;
+	border-color: #30823f;
+	outline: 0;
 }
