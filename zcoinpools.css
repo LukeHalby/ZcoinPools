@@ -10,7 +10,6 @@ html {
           box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
-
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
@@ -105,6 +104,16 @@ th {
 }
 th, td {
 	border-bottom: 1px solid white;
+}
+#credit {
+	position: relative;
+	top: 800px;
+	float: right;
+	font-size: 10px;
+}
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
 }
 #about {
 	background-color: #41ad55;
